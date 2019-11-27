@@ -9,8 +9,12 @@ body {
 
 .main-header {
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   background: #2ddf56;
   padding: 8px 16px;
+  z-index: 1;
 }
 
 .main-header > div {
@@ -23,12 +27,18 @@ body {
   text-decoration: none;
   font-weight: bold;
   font-size: 20px;
+  height: 22px;
+  display: inline-block;
+}
+
+.main-header__brand img {
+  height: 100%;
 }
 
 .main-nav {
   display: inline-block;
   text-align: right;
-  width: calc(100% - 74px);
+  width: calc(100% - 124px);
   vertical-align: middle;
 }
 
