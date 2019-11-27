@@ -1,0 +1,20 @@
+.packages-plans {
+  background: #d5ffdc;
+  border: 2px solid #0e4f1f;
+  margin: 5px 15px;
+  padding: 20px;
+}
+
+.packages-plans a {
+  text-decoration: none;
+}
+
+.packages-plans__title {
+}
+
+.packages-plans__description {
+  background: white;
+  border: 1px solid #0e4f1f;
+  color: #0e4f1f;
+  padding: 10px 10px;
+}
