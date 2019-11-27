@@ -1,20 +1,70 @@
-.packages-plans {
+main {
+  padding-top: 32pxs;
+}
+
+.package {
   background: #d5ffdc;
-  border: 2px solid #0e4f1f;
-  margin: 5px 15px;
-  padding: 20px;
+  border: 4px solid #0e4f1f;
+  border-left: none;
+  margin: 16px 0;
+  width: 80%;
 }
 
-.packages-plans a {
+.package:hover,
+.package:active {
+  box-shadow: 2px 2px 4px rgba (0, 0, 0, 0.5);
+  border-color: #ff5454;
+}
+
+.package a {
   text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 32px;
 }
 
-.packages-plans__title {
+.package__subtitle {
+  color: #979797;
 }
 
-.packages-plans__description {
+.package__info {
   background: white;
   border: 1px solid #0e4f1f;
   color: #0e4f1f;
-  padding: 10px 10px;
+  padding: 16px;
+  font-size: 20px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#plus {
+  background: rgba(213, 255, 220, 0.95);
+}
+
+#free {
+  background: rgba(234, 252, 237, 0.95);
+  float: right;
+  border: 4px solid #0e4f1f;
+  border-right: none;
+  text-align: right;
+}
+
+#free:hover,
+#free:active {
+  box-shadow: 2px 2px 4px rgba (0, 0, 0, 0.5);
+  border-color: #ff5454;
+}
+
+#premium {
+  background: rgba(14, 74, 31, 0.95);
+}
+
+#premium .package__title {
+  color: white;
+}
+
+#premium .package__subtitle {
+  color: #bbb;
 }
